@@ -6,8 +6,6 @@ Paper: https://ieeexplore.ieee.org/document/9490307
 In practice, multimodal images may be incomplete since PET is often missing due to high financial costs or availability. Most of the existing methods simply excluded subjects with missing data, which unfortunately reduced the sample size. To address these problems, we propose a task-induced pyramid and attention generative adversarial network (TPA-GAN) for imputation of multimodal brain images. With the complete multimodal images, we build a pathwise transfer dense convolution network (PT-DCN) to gradually learn and combine the multimodal features for final disease classification.
 
 ## Overview
-![Fig1.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png)
-
 <p align="center">
   <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png" width="480">
 </p>
@@ -37,7 +35,9 @@ import time
 ```
 ## Methods
 ### Stage 1: TPA-GAN for multimodal brain image imputation
-![Fig2.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png)
+<p align="center">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png" width="480">
+</p>
 
 Run the following code，we test the models after each epoch of training process. No independent test program is required, we also provide。
 ```python
@@ -49,7 +49,9 @@ train_TPA_GAN.py
 * To start and stop the Standard discriminator and Task-induced discriminator at the right time according to experrience (see source code).
 
 ### Stage 2: PT-DCN for disease classification (Updating)
-![Fig3.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png)
+<p align="center">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png" width="480">
+</p>
 
 
 Run the following code，we test the models after each epoch of training process. No independent test program is required, we also provide。
