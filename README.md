@@ -7,3 +7,31 @@ In practice, multimodal images may be incomplete since PET is often missing due 
 
 ## Overview
 ![Fig1.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png)
+
+# Fig. 1. Overview of our proposed deep learning framework with a task-induced pyramid and attention GAN (TPA-GAN) and a pathwise transfer dense convolution network (PT-DCN) for multimodal brain image imputation and classification, respectively.
+
+
+## Installation
+
+This script need no installation, but has the following requirements:
+* PyTorch 1.11.0 or above
+* Python 3.5.7 or above
+
+## Usage
+
+Import libraries
+
+```python
+import os
+import cv2
+import torch
+import numpy as np
+from torch import nn
+from torch import optim
+from torch.nn import functional as F 
+from torch.autograd import Variable
+from sklearn.metrics import roc_curve, auc
+import math
+import time
+```
+
