@@ -8,6 +8,9 @@ In practice, multimodal images may be incomplete since PET is often missing due 
 ## Overview
 ![Fig1.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png)
 
+<p align="center">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png" width="480">
+</p>
 
 ## Installation
 
