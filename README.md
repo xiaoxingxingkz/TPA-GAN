@@ -53,5 +53,5 @@ Run the following code，we test the models after each epoch of training process
 ```python
 train_PT_DCN.py
 ```
-## About the input data
+## About Data
 Next project, We will provide clear pre-processing procedures of the neuroimages from ADNI database, and release our pre-processed data.
