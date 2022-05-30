@@ -8,7 +8,7 @@ In practice, multimodal images may be incomplete since PET is often missing due 
 ## Overview
 ![Fig1.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png)
 
-# Fig. 1. Overview of our proposed deep learning framework with a task-induced pyramid and attention GAN (TPA-GAN) and a pathwise transfer dense convolution network (PT-DCN) for multimodal brain image imputation and classification, respectively.
+### Fig. 1. Overview of our proposed deep learning framework: (1)Stage1: Task-induced pyramid and attention GAN (TPA-GAN) for multimodal brain image imputation and (2)Stage2: Pathwise transfer dense convolution network (PT-DCN) for disease classification.
 
 
 ## Installation
