@@ -33,8 +33,8 @@ torch.backends.cudnn.deterministic = True
 
 
 # initial setup
-PET_MODEL_PATH = '/media/sdb/gaoxingyu/3D_SkipC_DiseaseGAN_Gau_x1/Task_Induced_Discriminator_save/PET'
-MRI_MODEL_PATH = '/media/sdb/gaoxingyu/3D_SkipC_DiseaseGAN_Gau_x1/Task_Induced_Discriminator_save/MRI'
+PET_MODEL_PATH = './Task_Induced_Discriminator_save/PET'
+MRI_MODEL_PATH = './Task_Induced_Discriminator_save/MRI'
 
 TRAIN_BATCH_SIZE = 4    
 TEST_BATCH_SIZE = 1
