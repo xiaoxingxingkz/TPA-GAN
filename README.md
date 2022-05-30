@@ -1,9 +1,9 @@
 # Task-Induced Pyramid and Attention GAN for Multimodal Brain Image Imputation and Classification in Alzheimer’s Disease
-Paper link: https://ieeexplore.ieee.org/document/9490307
+Paper: https://ieeexplore.ieee.org/document/9490307
 
 ## Summary
 
-In practice, multimodal images may be incomplete since PET is often missing due to high financial costs or availability. Most of the existing methods simply excluded subjects with missing data, which unfortunately reduced the sample size. To address these problems, we propose a task-induced pyramid and attention generative adversarial network (TPA-GAN) for imputation of multimodal brain images.
+In practice, multimodal images may be incomplete since PET is often missing due to high financial costs or availability. Most of the existing methods simply excluded subjects with missing data, which unfortunately reduced the sample size. To address these problems, we propose a task-induced pyramid and attention generative adversarial network (TPA-GAN) for imputation of multimodal brain images. With the complete multimodal images, we build a pathwise transfer dense convolution network (PT-DCN) to gradually learn and combine the multimodal features for final disease classification.
 
 ## Overview
 ![Fig1.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png)
@@ -38,7 +38,7 @@ import time
 ### Stage 1: TPA-GAN for multimodal brain image imputation
 ![Fig2.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png)
 
-
+run 
 ```python
 train_TPA_GAN.py
 ```
