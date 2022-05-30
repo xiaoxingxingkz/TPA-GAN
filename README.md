@@ -34,7 +34,7 @@ from sklearn.metrics import roc_curve, auc
 import math
 import time
 ```
-
+## Methods
 ### Stage 1: TPA-GAN for multimodal brain image imputation
 ![Fig2.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png)
 
@@ -54,3 +54,5 @@ Run the following code，we test the models after each epoch of training process
 ```python
 train_PT_DCN.py
 ```
+## About the input data
+Next project, We will provide clear pre-processing procedures of the neuroimages from ADNI database, and release our pre-processed data.
