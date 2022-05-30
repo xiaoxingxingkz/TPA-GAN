@@ -38,7 +38,7 @@ import time
 ### Stage 1: TPA-GAN for multimodal brain image imputation
 ![Fig2.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png)
 
-run 
+Run the following code，we test the models after each epoch of training process. No independent test program is required.
 ```python
 train_TPA_GAN.py
 ```
