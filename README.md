@@ -43,6 +43,9 @@ Run the following code，we test the models after each epoch of training process
 train_TPA_GAN.py
 ```
 ### Tricks
-* Pre-train the Task-induced discriminator first. In the training of GAN, the weights of task-induced discriminator are fixed, while its loss is used to update the parameters of generator, which can help the generator reconstruct the pathological changes.
-* Adjust the weights of generator losses adaptively for balance of training.
+* Pre-train the Task-induced discriminator first. In the training of GAN, the weights of Task-induced discriminator are fixed, while its loss is used to update the parameters of generator, which can help the generator reconstruct the pathological changes.
+* Adjust the weights of Generator losses adaptively for balance of training.
 * To start and stop the Standard discriminator and Task-induced discriminator at the right time according to experrience (see source code).
+
+### Stage 2: PT-DCN for disease classification
+![Fig3.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png)
