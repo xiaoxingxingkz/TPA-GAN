@@ -35,3 +35,10 @@ import math
 import time
 ```
 
+### Stage 1: TPA-GAN for multimodal brain image imputation
+![Fig2.png](https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png)
+
+
+```python
+train_TPA_GAN.py
+```
