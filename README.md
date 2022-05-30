@@ -7,7 +7,7 @@ In practice, multimodal images may be incomplete since PET is often missing due 
 
 ## Overview
 <p align="center">
-  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png" width="480">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig1.png" width="600">
 </p>
 
 ## Installation
@@ -36,7 +36,7 @@ import time
 ## Methods
 ### Stage 1: TPA-GAN for multimodal brain image imputation
 <p align="center">
-  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png" width="480">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig2.png" width="600">
 </p>
 
 Run the following code，we test the models after each epoch of training process. No independent test program is required, we also provide。
@@ -50,7 +50,7 @@ train_TPA_GAN.py
 
 ### Stage 2: PT-DCN for disease classification (Updating)
 <p align="center">
-  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png" width="480">
+  <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png" width="600">
 </p>
 
 
