@@ -1,0 +1,13 @@
+1. Filename is formated as "Label + ID" (1: AD, 0:NC).
+
+2. Load Demo:
+import scipy.io as sio
+path = "./ADNI1_MRI_PET_ADNC_255/0_009_S_0862.mat"
+img = sio.loadmat(path)
+out = img['data']
+mri_data = data[0, 76, 94, 76]
+pet_data = data[1, 76, 94, 76] 
+
+3. Complete dataset will upload in our next project.
+
+4. Delete this file while training.
