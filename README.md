@@ -49,7 +49,7 @@ train_TPA_GAN.py
 * To start and stop the Standard discriminator and Task-induced discriminator at the right time according to experrience (see source code).
 * The generalization performance of pre-trained Task-induced discriminatora is vitally important.
 
-### Stage 2: PT-DCN for disease classification (Updating)
+### Stage 2: PT-DCN for disease classification 
 <p align="center">
   <img src="https://github.com/xiaoxingxingkz/TPA-GAN/blob/main/Figure_in_paper/Fig3.png" width="700">
 </p>
