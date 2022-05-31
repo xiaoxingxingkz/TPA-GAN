@@ -15,7 +15,7 @@ from gan_models import *
 from densenet import *
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 cuda = torch.cuda.is_available()
 
 # initial for recurrence
