@@ -5,7 +5,7 @@ import numpy as np
 from torch.utils.data.dataset import Dataset
 
 class TestDataset(Dataset):
-    def __init__(self, image_path = '/media/sdb/gaoxingyu/ADNI2_MRI_PET_ADNC_255'):   
+    def __init__(self, image_path = './ADNI2_MRI_PET_ADNC_255'):   # Pixel range 0~255 
         self.path = image_path
         test_data = []
         label = os.listdir(self.path)
