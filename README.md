@@ -47,6 +47,7 @@ train_TPA_GAN.py
 * Pre-train the Task-induced discriminator first. In the training of GAN, the weights of Task-induced discriminator are fixed, while its loss is used to update the parameters of generator, which can help the generator reconstruct the pathological changes.
 * Adjust the weights of Generator losses adaptively for balance of training.
 * To start and stop the Standard discriminator and Task-induced discriminator at the right time according to experrience (see source code).
+* The generalization performance of pre-trained Task-induced discriminatora is vitally important.
 
 ### Stage 2: PT-DCN for disease classification (Updating)
 <p align="center">
