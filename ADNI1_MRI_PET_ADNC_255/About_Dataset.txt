@@ -1,4 +1,4 @@
-1. Filename is formated as "Label + ID" (1: AD, 0:NC).
+1. Filename is formated as "Label + ID" (1: AD, 0:NC), e.g., For the filename of 0_009_S_0862.mat, 0 is label and 009_S_0862 is ID.
 
 2. Load Demo:
 import scipy.io as sio
