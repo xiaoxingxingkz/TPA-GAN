@@ -6,7 +6,7 @@ from torch.utils.data.dataset import Dataset
 
 
 class TrainDataset(Dataset):
-    def __init__(self, image_path = './ADNI1_MRI_PET_ADNC_255'):  
+    def __init__(self, image_path = './ADNI1_MRI_PET_ADNC_255'): # Pixel range 0~255 
         self.path = image_path
         train_data = []
         label = os.listdir(self.path)
